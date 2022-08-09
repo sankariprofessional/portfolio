@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color:white;font-weight:bolder;" href="#"><i class="bi bi-person"></i> Gopinath Anbanandan</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#project">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#career">Career</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              </ul>
+              </div>
+        </div>
+      </nav>
+      <!--home-->
+      <section id="home">
+        <div id="banner">
+            <div id="cloud-scroll"></div>
+          </div>
+          <div class="circle">
+            <img src="gopi.png">
+            <div class="content">
+            
+                <h6> <i class="bi bi-person-workspace"></i>  Facade Project Manager</h6>
+                <h6> <i class="fa fa-briefcase"></i>  14yrs International exp</h6>
+                <h6> <i class="bi bi-geo-alt-fill"></i>   Alutec Qatar</h6>
+                <h6> <i class="bi bi-envelope-fill"></i>  bradgopi@yahoo.com</h6>
+                <h6> <i class="bi bi-telephone"></i>   +97433407810</h6>
+               <!-- <h6> <i class="bi bi-linkedin"></i> www.linkedin.com/in/gopinath-a-261a2171 </h6>-->
+               
+              </div>
+              
+     </div>
+     <p class="text-center"> Facade Project Manager</p>
+     <div class="button">
+        <a href="resume.pdf">
+          <button class="btn btn-primary"><i class="fa fa-download"></i> Download Resume</button>
+        </a>
+      </div>
+      </section>
+
+      <!--project-->
+    <section id="project">
+      <div class="container">
+   <h2 class="text-center " style="text-shadow:0px 2px black;color:#285574;"><i class="fa fa-list" style="font-size:24px;color:#285574"></i> PROJECTS </h2><hr><br>
+ 
+<div class="text-center" id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('qatar')"> Qatar</button>
+  <button class="btn" onclick="filterSelection('singapore')"> Singapore</button>  
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column qatar">
+    <div class="content">
+      <img src="projects/974stadium.JPG" alt="40k" style="width:100%">
+      <h4>974 Stadium</h4>
+      <p>21 Million Qatar Riyal</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+       see Details
+      </button>
+      <div class="collapse" id="collapseExample1">
+        <div class="card card-body">
+          <ul>
+            <li>Client/Consultant/Main Con-Supreme Committe/Time Qatar/HBK</li>
+            <li> Scope of Work:  Curtain Walls, Canopy, Skylight, Fire Rated Glazing, Internal Partitions, S.S Bi folding Doors, Glass Balustrade, Platforms </h6>
+            </li>
+          </ul> 
+           </div>
+      </div>
+
+ </div>
+  </div>
+
+  <div class="column singapore">
+    <div class="content">
+    <img src="projects/S1.JPG" alt="s1" style="width:100%">
+      <h4>Junction City       
+        </h4>
+      <p> 20 Million S$ </p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample2">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Architect-Keppal Bay/DP Architects</li>
+          <li> Scope of Work: Curtain Walls, Shop front with jumbo Glass,7M cantilever canopy, Vertical Fins & Perforated Panels </li>
+             </li>
+           </ul> 
+            </div>
+       </div>
+     
+     
+    </div>
+  </div>
+
+  <div class="column singapore">
+    <div class="content">
+    <img src="projects/S6.JPG" alt="s6" style="width:100%">
+      <h4>Singapore Sports Stadium
+       </h4>
+      <p> 10 Million S$</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample3">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Architect/Main Con- SPORTS HUB PTE LTD/DP Architects/DRAGAGES Pte Ltd</li>
+            <li> Scope of Work: Shop from Glazing & Internal Partitions, Fire Rated Doors & Partitions, skype Glazing & Skylights, Spiral shaped control tower glazing(for watching water spoerts),Louvers integrated to facade</li>
+            </ul> 
+            </div>
+       </div>
+  
+     </div>
+  </div>
+  
+  <div class="column singapore">
+    <div class="content">
+      <img src="projects/S5.JPG" alt="s5" style="width:100%">
+      <h4>SEAGATE Headquaters
+      </h4>
+      <p>  15 Million S$</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample4">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Architect/Main Con-Point Architects/HA Architects/BOUSTEAD Projects</li>
+            <li> Scope of Work: Sider Glazing, Inclined cladding 3.6m from building, Connect bridgr B/W building on roof top(slope) with cladding & CW, Trellis & Canopy, Glass Hand railings in the link bridges</li>
+               </ul> 
+            </div>
+       </div>
+      
+    </div>
+  </div>
+
+  <div class="column singapore">
+    <div class="content">
+    <img src="projects/S4.JPG" alt="s4" style="width:100%">
+      <h4>SBF Center at Robinson Road
+        </h4>
+      <p>23 Million S$</p>
+
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample5">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Architect/Main Con-FAR EAST OPUS/DP Architects/WHO HUB PTE LTD</li>
+            <li> Scope of Work: Curtain Walls with Light Box and Sunshades, Aluminium, Cladding, Glass Roof, Canopy, Trellis & Pavilion, 3 Layers ceiling Panels & shop fronts</li>
+                  </ul> 
+            </div>
+       </div>
+      
+   </div>
+  </div>
+  <div class="column singapore">
+    <div class="content">
+    <img src="projects/S7.JPG" alt="s7" style="width:100%">
+      <h4>D'Leadon 36 Storey Condominium
+        </h4>
+      <p>26 Million S$</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample6">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Architect/Main Con-CAPITALAND/RSP Architects/WHO HUP PTE LTD</li>
+            <li> Scope of Work: Casement Windows, Sliding Doors &  Windows, Canopy</li>
+            </ul> 
+            </div>
+       </div>
+    
+    </div>
+  </div>
+
+  <div class="column qatar">
+    <div class="content">
+      <img src="projects/q1.JPG" alt="q1" style="width:100%">
+      <h4>Mannai GMC
+        </h4>
+      <p>9 Million Qatar Riyal</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample7">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Architect-Mannai/Qatar Design Consortium</li>
+            <li> Scope of Work: Curtain Walls, Canopy, Skylight, Fire Rated Glazing, Internal Partitions, S.S Bi folding Doors</li>
+             </ul> 
+            </div>
+       </div>
+      
+    </div>
+  </div>
+  <div class="column qatar">
+    <div class="content">
+    <img src="projects/q2.JPG" alt="q2" style="width:100%">
+      <h4>Supreme Education Council
+       </h4>
+      <p> 5.5 Million Qatar Riyal</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample8">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Architect- Supreme Education Council/KEO</li>
+            <li> Scope of Work: Opaque Decorative Class, Canopy, Lift Shaft Spider Glazing, Curved Sliding Door, Curved Black Pearl Glass Partition, Acoustic Window & Doors</li>
+          </ul> 
+            </div>
+       </div>
+      
+      
+    </div>
+  </div>
+  <div class="column singapore">
+    <div class="content">
+    <img src="projects/S2.JPG" alt="s2" style="width:100%">
+      <h4>Singapore Chinese Cultural Centre
+        </h4>
+      <p>13 Million S$</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample9" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample9">
+         <div class="card card-body">
+           <ul>
+            <li>Architect-DP Architects</li>
+            <li> Scope of Work: Curtain Walls, Shop front with jumbo Glass,7M cantilever canopy, Vertical Fins & Perforated Panels</li>
+           </ul> 
+            </div>
+       </div>
+      
+    </div>
+  </div>
+  <div class="column singapore">
+    <div class="content">
+    <img src="projects/S3.JPG" alt="s3" style="width:100%">
+      <h4>Senkang Hospital
+        </h4>
+      <p>10 Million S$</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample10" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample10">
+         <div class="card card-body">
+           <ul>
+            <li>Architect-DP Architects</li>
+            <li> Scope of Work: Curtain Walls, Shop front with jumbo Glass,7M cantilever canopy, Vertical Fins & Perforated Panels</li>
+           </ul> 
+            </div>
+       </div>
+      
+             
+    </div>
+  </div>
+  <div class="column singapore">
+    <div class="content">
+    <img src="projects/S8.JPG" alt="s8" style="width:100%">
+      <h4>NUS Kent Vale Staff Accomodation
+       </h4>
+      <p> 6 Million S$</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample11" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample11">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Architect/Main Con-CAPITALAND/RSP Architects/WHO HUP PTE LTD</li>
+            <li> Scope of Work: Curtain wall with Fin glass,Casement Windows, Frameless Glass Partition</li>
+           </ul> 
+            </div>
+       </div>
+     
+    </div>
+  </div>
+  <div class="column qatar">
+    <div class="content">
+    <img src="projects/q3.JPG" alt="q3" style="width:100%">
+      <h4>Student Center
+        </h4>
+      <p>11 Million Qatar Riyal</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample12" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample12">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Consultant/Main Con-Qatar Petroleum/KEO/TADMUR</li>
+          <li> Scope of Work: Spider Glazing-1000sqm (Kinlong), Aluminium Doors & Windows, Frameless Doors & Sliding Doors,Skylights(Technal)</li>
+        </ul> 
+            </div>
+       </div>
+     
+    </div>
+  </div>
+  <div class="column qatar">
+    <div class="content">
+    <img src="projects/q4.JPG" alt="q4" style="width:100%">
+      <h4>Al Shaqab Academy
+        </h4>
+      <p>6 Million Qatar Riyal</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample13" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample13">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Consultant/Main Con-Qatar Petroleum/KEO/LEIGHTON Groups</li>
+            <li> Scope of Work: Fire rated Glass with framed Partitiong(Rayners),Frameless Doors & Sliding /doors(Geze Fittings), Fly screens, Glass box entrance(Interconnected jumbo glasses using only Structural Sealant)</li>
+          </ul> 
+            </div>
+       </div>
+     
+    </div>
+  </div>
+  <div class="column qatar">
+    <div class="content">
+    <img src="projects/q5.JPG" alt="q5" style="width:100%">
+      <h4>
+        Qatar Foundation Staff Academy
+      </h4>
+      <p>16.5 Million Qatar Riyal</p>
+      <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample14" aria-expanded="false" aria-controls="collapseExample">
+        see Details
+       </button>
+       <div class="collapse" id="collapseExample14">
+         <div class="card card-body">
+           <ul>
+            <li>Client/Consultant-Qatar Petroleum/KEO</li>
+            <li> Scope of Work: Top Hung Windows(Technical FBI Series), Curtain wall system integrated with sunscreen assembly, Skylights, Automatic Frameless swing doors</li>
+         </ul> 
+            </div>
+       </div>
+     
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+
+      </div>
+    </section>
+
+   <!--career-->
+      <section id="career">
+      <h2 class="text-center " style="text-shadow:0px 2px black;color:#285574;"><i class="fa fa-history" style="font-size:24px;color:#285574"></i> CAREER HISTORY </h2><hr><br>
+      <p>14+ Years Of International Work Experience In (Façade) Aluminium, Curtain Walls & Steel Structures.</p>
+     
+      <div style="overflow-x:auto;">
+        <table>
+          <tr class="table-light">
+            <th>Employer</th>
+            <th>Designation</th>
+            <th>working period</th>
+            <th>Duration</th>
+            <th>country</th>
+          </tr>
+          <tr class="table-light">
+            <td>Alutec WLL</td>
+            <td>Project Manager</td>
+            <td>Feb'2018 to Till Dated</td>
+            <td>4.5 years</td>
+            <td>Qatar</td>
+          </tr>
+          <tr class="table-light">
+            <td>AVA GLOBAL Pte. Ltd</td>
+          <td>Project Manager</td>
+          <td>May'2016 to Jan'2018</td>
+          <td>1.8 Years</td>
+          <td>Singapore/ Myanmar</td>
+          </tr>
+          <tr class="table-light">
+            <td>Positive Engg. Pte. Ltd</td>
+          <td>Assistant Project Manager</td>
+          <td>Sept'2012 to May'2016</td>
+          <td>4 Years</td>
+          <td>singapore</td>
+          </tr>
+          <tr class="table-light">
+            <td>LHL International Pte. Ltd</td>
+            <td>Site Manager</td>
+            <td>July'2011 to Aug'2012</td>
+            <td>1 Year</td>
+            <td>singapore</td>
+          </tr>
+          <tr class="table-light">
+            <td>Specialized Aluminium & Steel Company (SASCO)</td>
+            <td>Site Engineer</td>
+            <td>Dec'2008 to June'2011</td>
+            <td>2.5 Years</td>
+            <td>Qatar</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+<!--education-->
+<section class="timeline-section" id="education">
+  <h2 class="text-center " style="text-shadow:0px 2px black;color:#285574;"><i class="fa fa-graduation-cap" style="font-size:24px;color:#285574"></i> Education </h2><hr><br>
+    
+	<div class="timeline-items">
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2003-2005</div>
+			<div class="timeline-content">
+				<h3>ANNA UNIVERSITY</h3>
+        <p>Department of Mechanical Engineering in First class, Tagore Engineering College </p> 
+       </div>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2006-2010</div>
+			<div class="timeline-content">
+				<h3>Alagappa University</h3>
+				<p>Department of Mechanical Engineering passed with 75%, Elumalai Polytechnic College</p>
+      </div>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">2001-2003</div>
+			<div class="timeline-content">
+				<h3>HIGHER SECONDARY EDUCATION</h3>
+        <p>passed with 75% Siga Higher Secondary School </p> 
+			</div>
+		</div>
+		
+	</div>
+</section>
+
+    
+   <!--Contact Page-->
+ <section id="contact">
+  <div class="container mb-3">
+    <h2 class="text-center " style="text-shadow:0px 2px black;color:#285574;"><i class="fa fa-address-card-o" style="font-size:24px;color:#285574"></i> CONTACT </h2><hr><br>
+ 
+    <div class="row">
+      <div class="col-lg-7 col-12">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1846240.22452998!2d50.096335398128325!3d25.339863494333024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x1cfa88cf812b4032!2sQatar!5e0!3m2!1sen!2sqa!4v1658687529122!5m2!1sen!2sqa" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-lg-5 col-12">
+        <form id="my-form"action="https://formspree.io/f/xpznayrv" method="POST">
+          <div class="mb-3 mt-3">
+            <label for="uname" class="form-label">Username:</label>
+            <input type="text" class="form-control" id="contact-uname" placeholder="Enter username" name="name" required>
+            
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="contact-email" placeholder="Enter Email" name="email" required>
+           
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea  class="form-control" id="contact-message" placeholder="Your Message" rows="5" name="message" required></textarea>
+           </div>
+        <button type="submit" class="btn btn-primary" >Submit</button>
+        <p id="my-form-status"></p>
+        <div class="popup" id="popup">
+          <img src="bookmark.png" alt="tick">
+          <h2>Thank You</h2>
+          <p>Your Details has been Successfully Submitted.Thanks!
+          </p>
+          <button type="button" class="btn btn-primary"  onclick="closepopup()">OK</button>
+        </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
